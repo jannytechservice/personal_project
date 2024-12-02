@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Admiin</title>
+    <base href="/" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+
+    <meta
+      http-equiv="Permissions-Policy"
+      content="accelerometer=(self https://hosted-fields.assemblypay.com https://mpsnare.iesnare.com)"
+    />
+    <!-- Updated Content Security Policy -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+   script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' https://*.gleap.io https://*.admiin.com https://*.amazonaws.com https://*.frankiefinancial.io https://*.assemblypay.com;
+   worker-src blob:;
+   frame-src 'self' https://*.gleap.io https://*.admiin.com https://*.amazonaws.com https://*.frankiefinancial.io https://*.assemblypay.com;
+   style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+   font-src 'self' https://fonts.gstatic.com;
+   img-src 'self' data: blob: https://*.gleap.io https://appsync-api.us-east-1.amazonaws.com https://mpsnare.iesnare.com https://*.amazonaws.com https://flagcdn.com;
+   connect-src 'self' https://*.gleap.io wss://ws.gleap.io https://*.admiin.com https://*.amazonaws.com wss://*.amazonaws.com https://*.frankiefinancial.io https://*.assemblypay.com https://*.mixpanel.com;
+   media-src 'self' https://*.gleap.io https://*.admiin.com https://*.amazonaws.com https://*.frankiefinancial.io https://*.assemblypay.com;
+   child-src 'self' blob:;
+   object-src 'none';
+ "
+    />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script src="https://hosted-fields.assemblypay.com/assembly.js"></script>
+    <script src="https://assets.frankiefinancial.io/onboarding/v4/ff-onboarding-widget.umd.min.js"></script>
+    <script src="https://assets.frankiefinancial.io/one-sdk/v1.2-beta/oneSdk.umd.js"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

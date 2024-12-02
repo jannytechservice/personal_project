@@ -1,0 +1,8 @@
+Document has been successfully signed by all parties
+
+You can view and download the signed document by clicking the link below:
+
+{{task.url}}
+
+Best regards,
+{{task.from}}

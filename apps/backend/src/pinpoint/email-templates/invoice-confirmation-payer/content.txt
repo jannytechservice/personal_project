@@ -1,0 +1,22 @@
+Dear {{user.firstName}},
+
+This is to inform you that a payment of {{task.totalWithCurrency}} for invoice {{task.reference}} has been successfully made on {{payment.dateFormatted}}.
+
+Payment Details:
+
+Invoice Reference: {{task.reference}}
+Amount Paid: {{payment.totalWithCurrency}}
+Payment Date: {{payment.dateFormatted}}
+Payment Method: {{payment.method}}
+{{#if payment.noteForBusiness}}
+Notes: {{payment.noteForBusiness}}
+{{/if}}
+
+If you have any questions or need further assistance, feel free to contact us.
+
+Best regards,
+Admiin
+
+If you're having trouble with the link above, copy and paste the URL below into your web browser:
+{{payment.url}}
+

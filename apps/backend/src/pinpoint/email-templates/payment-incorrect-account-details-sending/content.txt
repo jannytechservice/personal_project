@@ -1,0 +1,12 @@
+Dear {{user.firstName}},
+
+We regret to inform you that the bank account details you provided to receive payments from your contacts are incorrect.
+
+We received a payment for invoice {{task.reference}} but have returned the funds due to incorrect receiving bank account details.
+
+Please update your bank account details as soon as possible to avoid any further payment issues from your contacts.
+
+If you have any questions or need assistance, feel free to contact us.
+
+Best regards,
+Admiin

@@ -1,0 +1,15 @@
+Subject: Payment Confirmation for Invoice {{task.reference}}
+
+Dear {{user.firstName}},
+
+We are pleased to inform you that a payment for Invoice {{task.reference}} was made on {{payment.dateFormatted}}. Once the funds have settled, we will distribute the payment to your primary receiving account. Please allow 3-5 business days for this process.
+
+Transaction Details:
+
+Invoice Reference: {{task.reference}}
+Amount Paid: {{payment.netWithCurrency}}
+If you have any questions or need assistance, feel free to contact us.
+
+Best regards,
+Admiin
+

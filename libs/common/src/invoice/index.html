@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice</title>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+        background-color: #f9f9f9;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: 'Space Mono', monospace;
+        margin: 0;
+        color: #000;
+      }
+
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: right;
+        margin-bottom: 20px;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+
+      .invoice-info,
+      .billing-info {
+        width: 48%;
+      }
+
+      .intro-table-title {
+        font-weight: bold;
+        color: #717885;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        font-size: 12px;
+      }
+
+      .table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+      }
+
+      .table th {
+        background-color: #a96dd7;
+        color: white;
+        font-weight: bold;
+        padding: 8px;
+        font-size: 12px;
+      }
+
+      .table td {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+        background-color: #f3f1fa;
+      }
+
+      .table tr:nth-child(even) td {
+        background-color: #f9f6fc;
+      }
+
+      .table td:last-child,
+      .table th:last-child {
+        text-align: right;
+      }
+
+      .summary {
+        margin-top: 20px;
+        text-align: right;
+      }
+
+      .summary p {
+        margin: 0;
+        font-size: 14px;
+      }
+
+      .summary .total {
+        font-weight: bold;
+        font-size: 18px;
+      }
+
+      .payment-details {
+        margin-top: 20px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #f3f7f9;
+        font-size: 14px;
+      }
+
+      .payment-method {
+        width: 40px;
+        margin-right: 10px;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #6fcf97;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 8px;
+        margin-top: 10px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .footer {
+        font-size: 10px;
+        color: #717885;
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      .note {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #555;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="invoice-info">
+        <p class="intro-table-title"># {{TASK.REFERENCE}}</p>
+        <p>Due {{TASK.DUEAT}}</p>
+      </div>
+      <div class="invoice-title">
+        <h1>TAX INVOICE</h1>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="billing-info">
+        <p class="intro-table-title">INVOICE TO</p>
+        <p>{{to.name}}<br />{{to.taxNumber}}<br />{{to.address}}</p>
+      </div>
+      <div class="billing-info">
+        <p class="intro-table-title">INVOICE FROM</p>
+        <p>
+          {{from.name}}<br />{{from.taxNumber}}<br />{{from.address}}<br />{{from.contact.email}}<br />{{from.website}}
+        </p>
+      </div>
+    </div>
+
+    <table class="table">
+      <tr class="heading">
+        <th>Description</th>
+        <th>Unit Price</th>
+        <th>QTY</th>
+        <th>GST</th>
+        <th>Amount</th>
+      </tr>
+      <tr>
+        <td>{{lineItem[0].description}}</td>
+        <td>500.00</td>
+        <td>2</td>
+        <td>100.00</td>
+        <td>1,000.00</td>
+      </tr>
+      <tr>
+        <td>{{lineItem[1].description}}</td>
+        <td>617.50</td>
+        <td>4</td>
+        <td>247.00</td>
+        <td>2,470.00</td>
+      </tr>
+      <tr>
+        <td>{{lineItem[2].description}}</td>
+        <td>3,000.00</td>
+        <td>1</td>
+        <td>300.00</td>
+        <td>3,000.00</td>
+      </tr>
+      <tr>
+        <td>{{lineItem[3].description}}</td>
+        <td>1,700.00</td>
+        <td>1</td>
+        <td>170.00</td>
+        <td>1,700.00</td>
+      </tr>
+    </table>
+
+    <div class="summary">
+      <p>Subtotal: $8,170.00</p>
+      <p>GST (10%): $817.00</p>
+      <p class="total">Total AUD $8,987.00</p>
+    </div>
+
+    <div class="payment-details">
+      <p><strong>Payment Details</strong></p>
+      <div class="">
+        <img src="visa.png" alt="Visa" class="payment-method" />
+        <img src="mastercard.png" alt="Mastercard" class="payment-method" />
+        <img src="amex.png" alt="Amex" class="payment-method" />
+      </div>
+      <div class="button">View and Pay Online</div>
+      <p>Name: {{receivingAccount.accountName}}</p>
+      <p>BSB: {{receivingAccount.routingNumber}}</p>
+      <p>Account Number: {{receivingAccount.number}}</p>
+      <p>Reference: {{task.reference}}</p>
+    </div>
+
+    <div class="note">
+      <p><strong>Notes:</strong> {{task.notes}}</p>
+    </div>
+
+    <p class="footer">Page {{ pageNumber }} of {{ pageCount }}</p>
+  </body>
+</html>

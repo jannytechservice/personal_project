@@ -1,0 +1,10 @@
+Dear {{user.firstName}},
+
+We regret to inform you that the payment of {{task.totalWithCurrency}} for invoice {{task.reference}} was made to incorrect bank account or BPAY details.
+
+The funds have been returned to your account and the bill has changed to a Draft. Please update the contact or bill information with the correct bank or bpay details then try payment again.
+
+If you have any questions or need assistance, feel free to contact us.
+
+Best regards,
+Admiin

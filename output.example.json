@@ -1,0 +1,75 @@
+{
+  "ADMDatabaseStack": {
+    "ExportsOutputRefUserConversations3BFD704F64251A3C": "ADMDatabaseStack-UserConversations3BFD704F-DY5D2YD4MKSU",
+    "ExportsOutputFnGetAttTeamUserTableF05C16F4Arn8F829D22": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-TeamUserTableF05C16F4-EQRHF41WBWZD",
+    "ExportsOutputRefTeamUserTableF05C16F4DAEFF3CE": "ADMDatabaseStack-TeamUserTableF05C16F4-EQRHF41WBWZD",
+    "ExportsOutputRefNotificationTable89D5933FA1629128": "ADMDatabaseStack-NotificationTable89D5933F-1KY0SEWWCXAVM",
+    "ExportsOutputFnGetAttBillingTableC3F396AAArnC9C7AE07": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-BillingTableC3F396AA-ETYCQRGQ4YAY",
+    "ExportsOutputFnGetAttConversationTable75C14D21StreamArn92D54A18": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-ConversationTable75C14D21-WDG0Y9MH8C2M/stream/2023-12-19T03:56:11.152",
+    "ExportsOutputRefReferrerTableCDE31E78353400F6": "ADMDatabaseStack-ReferrerTableCDE31E78-TM1D1NTN8ZF5",
+    "ExportsOutputRefContactsTableD21ED2A6283110F5": "ADMDatabaseStack-ContactsTableD21ED2A6-1W45MLIJ14KXA",
+    "ExportsOutputFnGetAttMessageTable477906EAArnA721D903": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-MessageTable477906EA-1CLEQ9LHPHT58",
+    "ExportsOutputFnGetAttEntityTable75B79413Arn6B1A18CA": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-EntityTable75B79413-C62IMO45WIMO",
+    "ExportsOutputRefRatingTable444F6B0314ADDB06": "ADMDatabaseStack-RatingTable444F6B03-1JYWC7WRH6K0R",
+    "ExportsOutputFnGetAttUserConversations3BFD704FArn88AB55B2": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-UserConversations3BFD704F-DY5D2YD4MKSU",
+    "ExportsOutputFnGetAttReferrerTableCDE31E78Arn96F79F45": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-ReferrerTableCDE31E78-TM1D1NTN8ZF5",
+    "ExportsOutputFnGetAttContactsTableD21ED2A6ArnB7D55D8F": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-ContactsTableD21ED2A6-1W45MLIJ14KXA",
+    "ExportsOutputRefConversationTable75C14D21A757611F": "ADMDatabaseStack-ConversationTable75C14D21-WDG0Y9MH8C2M",
+    "ExportsOutputRefAdminTable76B0C542622E6720": "ADMDatabaseStack-AdminTable76B0C542-FOQXAG55ZTHL",
+    "ExportsOutputRefUserTableBD4BF69E1F4D2BA4": "ADMDatabaseStack-UserTableBD4BF69E-1S33YILGKMFPN",
+    "ExportsOutputFnGetAttMessageTable477906EAStreamArnD0E9246C": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-MessageTable477906EA-1CLEQ9LHPHT58/stream/2023-12-19T03:56:11.130",
+    "ExportsOutputRefOptionTableFF601353B288B4BB": "ADMDatabaseStack-OptionTableFF601353-1DGPU3D28IHOR",
+    "ExportsOutputFnGetAttRatingTable444F6B03Arn6ED0E27A": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-RatingTable444F6B03-1JYWC7WRH6K0R",
+    "ExportsOutputFnGetAttTeamTable4903B786ArnE303429B": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-TeamTable4903B786-1L50B8UCJ36HE",
+    "ExportsOutputFnGetAttProductTableB8D4E9EDArn9E8D595F": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-ProductTableB8D4E9ED-J7R0Y5VT56JK",
+    "ExportsOutputFnGetAttTransactionTable34F3B683Arn3133F98C": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-TransactionTable34F3B683-10FCJ5XHX73G4",
+    "ExportsOutputRefTeamTable4903B786CD6186A3": "ADMDatabaseStack-TeamTable4903B786-1L50B8UCJ36HE",
+    "ExportsOutputRefBillingTableC3F396AA0CA38283": "ADMDatabaseStack-BillingTableC3F396AA-ETYCQRGQ4YAY",
+    "ExportsOutputFnGetAttAdminTable76B0C542Arn22AA8EDA": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-AdminTable76B0C542-FOQXAG55ZTHL",
+    "ExportsOutputFnGetAttConversationTable75C14D21ArnDAE9808D": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-ConversationTable75C14D21-WDG0Y9MH8C2M",
+    "ExportsOutputFnGetAttNotificationTable89D5933FArn1A0757F0": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-NotificationTable89D5933F-1KY0SEWWCXAVM",
+    "ExportsOutputRefEntityUserTableD84FD34AD371287C": "ADMDatabaseStack-EntityUserTableD84FD34A-DTBTQXOG48JR",
+    "ExportsOutputRefMessageTable477906EA4B75E10A": "ADMDatabaseStack-MessageTable477906EA-1CLEQ9LHPHT58",
+    "ExportsOutputFnGetAttUserTableBD4BF69EArn9A5B685A": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-UserTableBD4BF69E-1S33YILGKMFPN",
+    "ExportsOutputRefEntityTable75B794138BCA5BAB": "ADMDatabaseStack-EntityTable75B79413-C62IMO45WIMO",
+    "ExportsOutputRefTransactionTable34F3B683A100CD41": "ADMDatabaseStack-TransactionTable34F3B683-10FCJ5XHX73G4",
+    "ExportsOutputRefProductTableB8D4E9ED1EF21745": "ADMDatabaseStack-ProductTableB8D4E9ED-J7R0Y5VT56JK",
+    "ExportsOutputFnGetAttOptionTableFF601353ArnCDEBFE17": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-OptionTableFF601353-1DGPU3D28IHOR",
+    "ExportsOutputFnGetAttEntityUserTableD84FD34AArn185B38FE": "arn:aws:dynamodb:us-east-1:035308050347:table/ADMDatabaseStack-EntityUserTableD84FD34A-DTBTQXOG48JR"
+  },
+  "ADMWebDeploymentStack": {
+    "WebDeploymentDeploymentBucketName6D2D220F": "admiin-web-deployment-dev-745273",
+    "WebDeploymentAdmiinCloudfrontUrl82146D2F": "d1lfnnnq60ad0q.cloudfront.net"
+  },
+  "ADMBackofficeDeploymentStack": {
+    "WebDeploymentDeploymentBucketName6D2D220F": "admiin-backoffice-deployment-dev-679588",
+    "WebDeploymentAdmiinCloudfrontUrl82146D2F": "d1rjv578qr2khc.cloudfront.net"
+  },
+  "ADMAuthStack": {
+    "ExportsOutputRefADMUserPooldev4DA031225197885B": "us-east-1_3Rf0icAxR",
+    "UserPoolClientId": "71g3s8d04uhv04f0m7gahsfhbs",
+    "UserPoolId": "us-east-1_3Rf0icAxR",
+    "ExportsOutputRefADMIdentityPooldev32D067508763CFF4": "us-east-1:8f5e3f28-0896-4623-bc16-f32818c865e5",
+    "IdentityPoolId": "us-east-1:8f5e3f28-0896-4623-bc16-f32818c865e5",
+    "ExportsOutputFnGetAttADMUserPooldev4DA03122Arn4F0EC6E7": "arn:aws:cognito-idp:us-east-1:035308050347:userpool/us-east-1_3Rf0icAxR",
+    "ExportsOutputRefADMIdentityPooldevUnauthenticatedRoleD3A8E0BF1FDFC199": "ADMAuthStack-ADMIdentityPooldevUnauthenticatedRoleD-HSNoi9VeFrS3",
+    "ExportsOutputRefADMIdentityPooldevAuthenticatedRole7EEA1EC861256B57": "ADMAuthStack-ADMIdentityPooldevAuthenticatedRole7EE-XoxX230D9XQh"
+  },
+  "ADMMediaStorageStack": {
+    "MediaBucketName": "admiin-media-dev",
+    "MediaBucketRegion": "us-east-1",
+    "ExportsOutputFnGetAttS3MediaBucket6DD10C0EArn3455846D": "arn:aws:s3:::admiin-media-dev",
+    "ExportsOutputRefS3MediaBucket6DD10C0EB16DD564": "admiin-media-dev"
+  },
+  "ADMLocationStack": {
+    "PlaceIndexName": "EsriPlaceIndexName"
+  },
+  "ADMAppSyncAPIStack": {
+    "RESTAPIName": "ADMRESTAPI-dev",
+    "GraphQLAPIID": "az7am5woqnb2vojl2yqgs6kauq",
+    "RestApiGatewayEndpointF48811B0": "https://cjw73ms0e5.execute-api.us-east-1.amazonaws.com/dev/",
+    "RestApiGatewayEndpoint": "restapi-dev.admiin.com",
+    "GraphQLAPIURL": "https://2ixjxoafkbhsxa2jb5qboqvkmu.appsync-api.us-east-1.amazonaws.com/graphql",
+    "GraphQLAPIKey": "da2-bmascqcp2vd6zfpdxuklxw4im4"
+  }
+}

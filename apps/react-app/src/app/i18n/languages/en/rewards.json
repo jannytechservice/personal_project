@@ -1,0 +1,17 @@
+{
+    "rewards": "Rewards",
+    "rewardsDescription":"Pay less tax with ",
+    "taxRewards":"TaxRewards",
+    "pointBalance":"Point Balance",
+    "points":"Points",
+    "recentActivities":"Recent Activity",
+    "loadMore":"Load More",
+    "loyaltyStatus":"Loyalty Status",
+    "loyaltyDescription":"To achieve <b>{{status}}</b> status, you need to send invoices or upload and pay bills from entities you own, with a total of <b>{{transaction}}</b> more transactions required before <b>October 2025.</b>" ,
+    "admiinNetworkPartners":"Admiin Nework Partners",
+    "admiinNetworkParntersDescription":"Earn Bonus Tax Rewards with you Admiin Network Partners",
+    "earnedTaxRewards":"Earned Tax Rewards (%)",
+    "appleTooltip":"Percentage of tax rewards you will earn on this purchase.",
+    "seeMoreBrands":"See all brands",
+    "rewardMaxStatus":"Congratulations! You've reached the highest Admiin Status, you receive the maximum amount of tax rewards for your bills paid"
+}

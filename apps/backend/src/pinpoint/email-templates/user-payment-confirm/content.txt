@@ -1,0 +1,13 @@
+Payment Confirmation Required
+
+Dear {{user.firstName}},
+
+A payment of ${{amountInDollars}} to {{companyName}} is scheduled on {{scheduledDate}}.
+
+As a security measure, we require confirmation of this payment. Please log into admiin.com to confirm the payment.
+
+If you have any questions or need assistance, feel free to contact us.
+
+Best regards,
+Admiin
+

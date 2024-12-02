@@ -1,0 +1,50 @@
+<tr>
+  <td class="email-body" width="570" cellpadding="0" cellspacing="0">
+    <table
+      class="email-body_inner"
+      align="center"
+      width="570"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+    >
+      <tr>
+        <td class="content-cell">
+          <div class="f-fallback">
+            <h1>Payment Confirmation Required</h1>
+            <p>Dear {{user.firstName}},</p>
+            <p>
+              A payment of <strong>${{payment.totalWithCurrency}}</strong> to
+              <strong>{{entityTo.name}}</strong> is scheduled on
+              <strong>{{payment.dateFormatted}}</strong>.
+            </p>
+            <p>
+              As a security measure, we require confirmation of this payment.
+              Please log into
+              <a href="https://admiin.com" class="f-fallback" target="_blank"
+                >admiin.com</a
+              >
+              to confirm the payment.
+            </p>
+            <p>
+              If you have any questions or need assistance, feel free to contact
+              us.
+            </p>
+            <p>Best regards,<br />Admiin</p>
+            <table class="body-sub" role="presentation">
+              <tr>
+                <td>
+                  <p class="f-fallback sub">
+                    If you're having trouble with the link above, copy and paste
+                    the URL below into your web browser.
+                  </p>
+                  <p class="f-fallback sub">https://admiin.com</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>

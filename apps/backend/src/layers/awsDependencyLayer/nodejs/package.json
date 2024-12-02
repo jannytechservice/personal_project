@@ -1,0 +1,33 @@
+{
+  "name": "dependencylayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "admiin <hello@admiin.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-appsync/utils": "^1.7.0",
+    "@aws-crypto/sha256-js": "^4.0.0",
+    "@aws-sdk/client-cognito-identity": "^3.490.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.332.0",
+    "@aws-sdk/client-dynamodb": "^3.310.0",
+    "@aws-sdk/client-pinpoint": "^3.332.0",
+    "@aws-sdk/client-pinpoint-email": "^3.332.0",
+    "@aws-sdk/client-s3": "^3.332.0",
+    "@aws-sdk/client-secrets-manager": "^3.332.0",
+    "@aws-sdk/client-sqs": "^3.332.0",
+    "@aws-sdk/client-textract": "^3.621.0",
+    "@aws-sdk/credential-provider-cognito-identity": "^3.490.0",
+    "@aws-sdk/credential-provider-node": "^3.272.0",
+    "@aws-sdk/lib-dynamodb": "^3.332.0",
+    "@aws-sdk/protocol-http": "^3.272.0",
+    "@aws-sdk/s3-request-presigner": "^3.332.0",
+    "@aws-sdk/signature-v4": "^3.272.0",
+    "@aws-sdk/util-dynamodb": "^3.332.0"
+  },
+  "packageManager": "yarn@4.1.1"
+}

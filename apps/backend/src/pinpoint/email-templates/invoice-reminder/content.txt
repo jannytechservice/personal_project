@@ -1,0 +1,24 @@
+Dear {{user.firstName}},
+
+This is a friendly reminder that a payment of {{task.totalWithCurrency}} from {{task.from}} for invoice {{task.reference}} is due on {{task.dueAtFormatted}}.
+
+Amount: {{task.totalWithCurrency}}
+
+{{#and (neq task.paymentFrequency "ONCE") (gt task.numberOfPayments 1)}}
+Frequency: {{task.paymentFrequency}} (x{{task.numberOfPayments}} payments)
+{{/and}}
+
+{{#if task.notes}}
+Notes: {{task.notes}}
+{{/if}}
+
+Please click the link below to make the payment:
+{{task.url}}
+
+If you have any questions or need assistance, feel free to contact us.
+
+Best regards,
+Admiin
+
+If you're having trouble with the button above, copy and paste the URL below into your web browser:
+{{task.url}}

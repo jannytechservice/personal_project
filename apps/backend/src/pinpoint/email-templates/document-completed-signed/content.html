@@ -1,0 +1,39 @@
+<tr>
+  <td class="email-body" width="570" cellpadding="0" cellspacing="0">
+    <table
+      class="email-body_inner"
+      align="center"
+      width="570"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+    >
+      <tr>
+        <td class="content-cell">
+          <div class="f-fallback">
+            <h1>All Signatures Completed</h1>
+            <p>Dear {{user.firstName}},</p>
+            <p>
+              We are pleased to inform you that the document has now been signed
+              by all required parties as of
+              <strong>{{finalDateSignedFormatted}}</strong>.
+            </p>
+            <p>
+              You can view the fully signed document by clicking the link below:
+            </p>
+            <p>
+              <a href="{{task.url}}" class="button" target="_blank"
+                >View Document</a
+              >
+            </p>
+            <p>
+              If you have any questions or need assistance, feel free to contact
+              us.
+            </p>
+            <p>Best regards,<br />Admiin</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>

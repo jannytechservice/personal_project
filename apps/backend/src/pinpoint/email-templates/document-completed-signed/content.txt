@@ -1,0 +1,13 @@
+
+Dear {{user.firstName}},
+
+We are pleased to inform you that the document has now been signed by all required parties as of {{finalDateSignedFormatted}}.
+
+You can view the fully signed document by clicking the link below:
+
+{{task.url}}
+
+If you have any questions or need assistance, feel free to contact us.
+
+Best regards,
+Admiin

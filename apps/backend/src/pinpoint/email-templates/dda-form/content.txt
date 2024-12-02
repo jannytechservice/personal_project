@@ -1,0 +1,24 @@
+Subject: Welcome to Admiin! Your Direct Debit Authorisation Confirmation has been Approved.
+
+Dear {{user.firstName}},
+
+We are pleased to confirm that your Direct Debit Request (DDR) and Direct Debit Request Service Agreement (DDRSA) have been successfully processed. To keep everything transparent and easily accessible, we’ve attached a copy of both documents for your records.
+
+Timestamp: {{dda.createdAt}}
+
+Here is your Direct Debit Request and Direct Debit Request Service Agreement that outlines the details of your direct debit arrangement with Admiin. Please review these documents and keep them for your reference.
+
+Should you have any questions or need further assistance, feel free to reach out to our support team at hello@admiin.com. We’re here to help!
+
+
+Best regards,
+
+The Admiin Team
+admiin.com
+
+---
+
+Attachments:
+
+1. Direct Debit Request (DDR)
+2. Direct Debit Request Service Agreement (DDRSA)
